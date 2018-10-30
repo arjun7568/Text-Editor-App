@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Text Editor</string>
+    <string name="app_drawer_openCD">Drawer Opened</string>
+    <string name="app_drawer_closeCD">Drawer Closed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

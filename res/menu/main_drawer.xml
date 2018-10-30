@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <group android:id="@+id/group_drawer_1">
+        <item
+            android:id="@+id/action_drawer_internalStorage"
+            android:icon="@drawable/ic_phone"
+            android:title="Internal Storage" />
+
+        <item
+            android:id="@+id/action_drawer_bookmarks"
+            android:icon="@drawable/ic_star"
+            android:title="Bookmarks" />
+
+        <item
+            android:id="@+id/action_drawer_recentFiles"
+            android:icon="@drawable/ic_restore"
+            android:title="Recent Files" />
+
+        <item
+            android:id="@+id/action_drawer_storageManager"
+            android:icon="@drawable/ic_cloud"
+            android:title="Storage Manager" />
+    </group>
+
+    <group android:id="@+id/group_drawer_2">
+        <item
+            android:id="@+id/action_drawer_removeAds"
+            android:icon="@drawable/ic_shop"
+            android:title="Remove Ads" />
+
+        <item
+            android:id="@+id/action_drawer_recommend"
+            android:icon="@drawable/ic_mail"
+            android:title="Recommend" />
+
+        <item
+            android:id="@+id/action_drawer_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/action_drawer_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/action_drawer_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
+    </group>
+</menu>

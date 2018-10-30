@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group android:id="@+id/group_toolbar_all">
+
+        <item
+            android:id="@+id/action_toolbar_file"
+            android:icon="@drawable/ic_folder"
+            android:title="File"
+            app:showAsAction="always">
+
+            <menu>
+                <item
+                    android:id="@+id/action_toolbar_new"
+                    android:icon="@drawable/ic_add"
+                    android:title="New" />
+
+                <item
+                    android:id="@+id/action_toolbar_open"
+                    android:icon="@drawable/ic_folder_open"
+                    android:title="Open" />
+
+                <item
+                    android:id="@+id/action_toolbar_save"
+                    android:icon="@drawable/ic_save"
+                    android:title="Save" />
+
+                <item
+                    android:id="@+id/action_toolbar_saveAs"
+                    android:icon="@drawable/ic_save_as"
+                    android:title="Save As" />
+
+                <item
+                    android:id="@+id/action_toolbar_close"
+                    android:icon="@drawable/ic_clear"
+                    android:title="Close" />
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/action_toolbar_edit"
+            android:icon="@drawable/ic_edit"
+            android:title="Edit"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/action_toolbar_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_toolbar_share"
+            android:icon="@drawable/ic_share"
+            android:title="Share"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_toolbar_goto"
+            android:icon="@drawable/ic_forward"
+            android:title="Goto Line"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_toolbar_readOnly"
+            android:checkable="true"
+            android:icon="@drawable/ic_lock"
+            android:title="Read Only"
+            app:showAsAction="never" />
+    </group>
+</menu>
